@@ -38,9 +38,9 @@ describe 'A game of tic tac toe' do
     Game.new
   end
 
- # it 'has a board' do
-  #  expect(Game.new).to respond_to(:board)
- # end
+  it 'has a board' do
+    expect(Game.new).to respond_to(:board)
+  end
 
  # it 'can be created with a specific board' do
  #   fake_board = 'FAKE'
