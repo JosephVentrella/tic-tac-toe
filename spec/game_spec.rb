@@ -48,10 +48,10 @@ describe 'A game of tic tac toe' do
     expect(game.board).to eq(fake_board)
   end
 
- # it 'is not initially over' do
-  #  game = Game.new
-  #  expect(game).to_not be_over
- # end
+  it 'is not initially over' do
+    game = Game.new
+    expect(game).to_not be_over
+  end
 
  # it 'is not over if the board is not full' do
  #   game = Game.new(midgame_board)

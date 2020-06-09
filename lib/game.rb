@@ -5,4 +5,6 @@ class Game
 	def initialize(board = board)
 		@board =  board
 	end
+	def over?
+	end
 end
